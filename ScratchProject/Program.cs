@@ -4,9 +4,11 @@ var app = builder.Build();
 
 /*app.MapGet("/", () => "Hello World!");*/
 
-app.MapControllerRoute(
+/*app.MapControllerRoute(
 	name: "default",
 	pattern:"{controller=Home}/{action=Details}/{id?}"
 	);
+*/
 
+app.MapControllers();
 app.Run();
