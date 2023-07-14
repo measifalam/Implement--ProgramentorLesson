@@ -4,4 +4,44 @@
 }
 
 <h1>Index</h1>
+<h1>Current Date & Time: @DateTime.Now</h1>
+<h1>Current Date & Time: @DateTime.Now.Year</h1>
 
+@{
+    var Name = "Md Asif Alam";
+    var Address = "Bhagalpur";
+}
+
+<h3>Name:@Name</h3>
+<h3>Address:@Address</h3>
+
+@{
+    var MyName = "Asif";
+    if(MyName.Equals("Asif"))
+    {
+        <h3>Hey Asif</h3>
+    }
+    else
+    {
+        <h3>Bye</h3>
+    }
+}
+
+@{
+    for(int i=0;i<5;i++)
+    {
+        <h2>@i</h2>
+    }
+}
+
+@{
+    string[] names = { "Md", "Asif", "Alam" };
+    for(var i=0;i<names.Length;i++)
+    {
+        <h3>@names[i]</h3>
+    }
+    foreach(var items in names)
+    {
+        <h2>@items</h2>
+    }
+}
