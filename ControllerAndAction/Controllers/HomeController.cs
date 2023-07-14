@@ -8,35 +8,15 @@ namespace ControllerAndAction.Controllers
 		{
 			return View();
 		}
-		public string DisplayStr()
+		 
+		public IActionResult About()
 		{
-			return "Asif";
+			return View();
 		}
 
-		public int DisplayInt(int id)
+		public IActionResult Contact()
 		{
-			return id;
-		}
-
-		public ContentResult ContentResult()
-		{
-			return Content("A last man who know Every Thing");
-		}
-
-		public JsonResult JsonResult()
-		{
-			var Name = "Md Asif Alam";
-			return Json(new {data=Name});
-		}
-
-		public ViewResult ViewResult()
-		{
-			return View("DisplayStr");
-		}
-
-		public EmptyResult EmptyResult()
-		{
-			return new EmptyResult();
+			return View();
 		}
 	}
 }
