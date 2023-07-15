@@ -27,6 +27,8 @@ namespace ControllerAndAction.Controllers
             ViewBag.StrArr = arr;
 
             ViewBag.StrList = new List<string>() { "Bhopal", "Kolkata", "Dubai" };
+
+          
             return View();
 		}
 
@@ -35,6 +37,15 @@ namespace ControllerAndAction.Controllers
 			ViewBag.Company = "Elite.Inc";
 			ViewData["TagName"] = "Tech Solution";
 			return View();
+		}
+
+		public IActionResult Display()
+		{
+			ViewBag.Data1 = "From Temp Asif";
+			ViewData["Data2"] = "From Temp Bhagalpur";
+            TempData["Data3"] = "From Temp Software Developer";
+
+            return View();
 		}
 	}
 }

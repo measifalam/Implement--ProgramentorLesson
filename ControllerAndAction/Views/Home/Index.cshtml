@@ -6,13 +6,11 @@
 }
 
 <h1>Index</h1>
-<h3>
-    @ViewData["name"]
-    <br/>
-    @ViewData["address"]
-    <br/>
-    @ViewData["designation"]
-</h3>
+<h1>Temp From Index</h1>
+
+<h2>@ViewBag.Data1</h2>
+<h2>@ViewData["Data2"]</h2>
+<h3>@TempData["Data3"]</h3>
 
 @{
     foreach(var item in (string[])ViewData["StrArr"])

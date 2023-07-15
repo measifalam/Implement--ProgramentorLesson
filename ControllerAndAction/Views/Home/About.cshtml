@@ -1,17 +1,16 @@
 ﻿
 @{
     ViewData["Title"] = "About";
-  //  Layout = "~/Views/Shared/_Layout.cshtml";
+    //  Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>About</h1>
 
-<h1>
+<h1>Temp From About</h1>
 
-    @ViewBag.Name
-    @ViewBag.Address
-    @ViewBag.Designation
-</h1>
+<h2>@ViewBag.Data1</h2>
+<h2>@ViewData["Data2"]</h2>
+<h3>@TempData["Data3"]</h3>
 
 @{
     foreach(var item in @ViewBag.StrArr)
