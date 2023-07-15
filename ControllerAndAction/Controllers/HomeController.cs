@@ -44,6 +44,8 @@ namespace ControllerAndAction.Controllers
 			ViewBag.Data1 = "From Temp Asif";
 			ViewData["Data2"] = "From Temp Bhagalpur";
             TempData["Data3"] = "From Temp Software Developer";
+			TempData.Keep();
+            TempData.Keep("Data3");
 
             return View();
 		}
