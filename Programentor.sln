@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapMethodRouting", "MapMeth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerAndAction", "ControllerAndAction\ControllerAndAction.csproj", "{CD4B50B9-136A-42B5-B84B-27704F0DA0C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelAspCore", "ModelAspCore\ModelAspCore.csproj", "{CB569E1E-4499-428D-83CE-F0136CEE30C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CD4B50B9-136A-42B5-B84B-27704F0DA0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD4B50B9-136A-42B5-B84B-27704F0DA0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD4B50B9-136A-42B5-B84B-27704F0DA0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB569E1E-4499-428D-83CE-F0136CEE30C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB569E1E-4499-428D-83CE-F0136CEE30C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB569E1E-4499-428D-83CE-F0136CEE30C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB569E1E-4499-428D-83CE-F0136CEE30C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
