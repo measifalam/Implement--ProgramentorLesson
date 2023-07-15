@@ -6,3 +6,23 @@
 
 <h1>About</h1>
 
+<h1>
+
+    @ViewBag.Name
+    @ViewBag.Address
+    @ViewBag.Designation
+</h1>
+
+@{
+    foreach(var item in @ViewBag.StrArr)
+    {
+        <h1>@item</h1>
+    }
+
+    foreach(var item in ViewBag.StrList)
+    {
+        <h2>@item</h2>
+    }
+}
+
+

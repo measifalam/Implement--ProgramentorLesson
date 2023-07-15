@@ -19,11 +19,21 @@ namespace ControllerAndAction.Controllers
 		 
 		public IActionResult About()
 		{
-			return View();
+			ViewBag.Name = "measifalam";
+			ViewBag.Address = "Bhagalpur";
+			ViewBag.Designation = "Developer";
+
+            string[] arr = { "Patna", "Ara", "Chapra" };
+            ViewBag.StrArr = arr;
+
+            ViewBag.StrList = new List<string>() { "Bhopal", "Kolkata", "Dubai" };
+            return View();
 		}
 
 		public IActionResult Contact()
 		{
+			ViewBag.Company = "Elite.Inc";
+			ViewData["TagName"] = "Tech Solution";
 			return View();
 		}
 	}
