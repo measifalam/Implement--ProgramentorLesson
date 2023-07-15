@@ -6,6 +6,27 @@
 }
 
 <h1>Index</h1>
+<h3>
+    @ViewData["name"]
+    <br/>
+    @ViewData["address"]
+    <br/>
+    @ViewData["designation"]
+</h3>
+
+@{
+    foreach(var item in (string[])ViewData["StrArr"])
+    {
+        <h2>@item</h2>
+    }
+
+    foreach (var item in (List<string>)ViewData["StrList"])
+    {
+        <h2>@item</h2>
+    }
+}
+
+
 
 
 @*<h1>Current Date & Time: @DateTime.Now</h1>

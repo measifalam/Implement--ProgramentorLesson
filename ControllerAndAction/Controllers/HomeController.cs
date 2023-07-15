@@ -6,7 +6,15 @@ namespace ControllerAndAction.Controllers
 	{
 		public IActionResult Index()
 		{
-			return View();
+			ViewData["name"] = "Md Asif Alam";
+            ViewData["address"] = "Bhagalpur";
+            ViewData["designation"] = "Developer";
+
+			string[] arr = { "Patna", "Ara", "Chapra" };
+			ViewData["StrArr"]=arr;
+
+			ViewData["StrList"] = new List<string>() { "Bhopal","Kolkata","Dubai" };
+            return View();
 		}
 		 
 		public IActionResult About()
