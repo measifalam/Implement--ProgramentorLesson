@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    //var myEmp = ViewData["emp"] as MyEmployee;
+    //var myEmp = ViewBag.emp;
+    //var myEmp = TempData["emp"] as MyEmployee;
+
+    var Emp = ViewData["emp"] as List<MyEmployee>;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+@{
+
+    // Implementing Single Obj
+    //if (myEmp != null)
+    //{
+    //    <h2>@myEmp.EmpId</h2>
+    //    <h2>@myEmp.EmpName</h2>
+    //    <h2>@myEmp.Designation</h2>
+    //    <h2>@myEmp.Salary</h2>
+    //}
+
+    if(Emp!=null)
+    {
+        foreach(var item in Emp)
+        {
+            <h2>@item.EmpId</h2>
+            <h2>@item.EmpName</h2>
+            <h2>@item.Designation</h2>
+            <h2>@item.Salary</h2>
+        }
+    }
+}

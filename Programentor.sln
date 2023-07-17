@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelAspCore", "ModelAspCor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementingRepository", "ImplementingRepository\ImplementingRepository.csproj", "{EFF738AF-5666-4EA6-9A56-0C9F29179B73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelDataWithViewDataBagTemp", "ModelDataWithViewDataBagTemp\ModelDataWithViewDataBagTemp.csproj", "{3D775BC9-75BE-411C-AE72-B32F05C81FDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EFF738AF-5666-4EA6-9A56-0C9F29179B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFF738AF-5666-4EA6-9A56-0C9F29179B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFF738AF-5666-4EA6-9A56-0C9F29179B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D775BC9-75BE-411C-AE72-B32F05C81FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D775BC9-75BE-411C-AE72-B32F05C81FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D775BC9-75BE-411C-AE72-B32F05C81FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D775BC9-75BE-411C-AE72-B32F05C81FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
