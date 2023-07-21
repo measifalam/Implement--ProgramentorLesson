@@ -13,14 +13,15 @@ namespace TagHelperDemo.Controllers
             _logger = logger;
         }
 
+        [Route("")]
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Contact()
+        public int Contact(int id)
         {
-            return View();
+            return id;
         }
 
         public IActionResult Privacy()
