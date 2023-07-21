@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementingRepository", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelDataWithViewDataBagTemp", "ModelDataWithViewDataBagTemp\ModelDataWithViewDataBagTemp.csproj", "{3D775BC9-75BE-411C-AE72-B32F05C81FDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strongly Typed Views", "Strongly Typed Views\Strongly Typed Views.csproj", "{DD3A82D0-EED5-4459-86B5-ABDF24815650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strongly Typed Views", "Strongly Typed Views\Strongly Typed Views.csproj", "{DD3A82D0-EED5-4459-86B5-ABDF24815650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallingBootstrap", "InstallingBootstrap\InstallingBootstrap.csproj", "{F85D0D66-EF52-4136-8515-59FE0C7CCB72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstallingBootstrap", "InstallingBootstrap\InstallingBootstrap.csproj", "{F85D0D66-EF52-4136-8515-59FE0C7CCB72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPCoreViewImport", "ASPCoreViewImport\ASPCoreViewImport.csproj", "{9666CDA2-67B7-475A-B6F4-5A82169A0BE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{F85D0D66-EF52-4136-8515-59FE0C7CCB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F85D0D66-EF52-4136-8515-59FE0C7CCB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F85D0D66-EF52-4136-8515-59FE0C7CCB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9666CDA2-67B7-475A-B6F4-5A82169A0BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9666CDA2-67B7-475A-B6F4-5A82169A0BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9666CDA2-67B7-475A-B6F4-5A82169A0BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9666CDA2-67B7-475A-B6F4-5A82169A0BE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
