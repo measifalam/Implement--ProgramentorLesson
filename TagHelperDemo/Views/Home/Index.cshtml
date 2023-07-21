@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@*====Calling method not having parameter*@
+@*
+<a href="/Home/Contact">ContactPage using anchor</a>
+
+<br/>
+@Html.ActionLink("ContactPage2","Contact","Home");
+
+<br/>
+
+<a href="@Url.Action("Contact","Home")">Contact Page</a>
+<br/>
+
+<a asp-controller="Home" asp-action="Contact">GoToContact use TagHElper</a>
+*@
+
+@*===CAlling method having parameter=====*@
+
+<a href="/Home/Contact/1">ContactPage using anchor</a>
+
+<br />
+@Html.ActionLink("ContactPage2","Contact","Home",new {id=1});
+
+<br />
+
+<a href="@Url.Action("Contact","Home",new {id=1})">Contact Page</a>
+<br />
+
+<a asp-controller="Home" asp-action="Contact" asp-route-id="1">GoToContact use TagHElper</a>
+
