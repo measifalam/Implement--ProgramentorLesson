@@ -1,0 +1,54 @@
+﻿@model ModelBindASPCore.Models.Employee
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <form class="d-grid" asp-action="Contact" asp-controller="Home" method="post">
+                <label asp-for="Name">Name:</label>
+                <input asp-for="Name" placeholder="Enter your Name" class="form-control"/>
+                <br/>
+                <select class="form-control" asp-for="Gender" asp-controller="Home" asp-items="Html.GetEnumSelectList<Gender>()">
+                    
+<option value="">Select your Gender</option>
+
+                </select>
+                <br />
+                <input asp-for="Age" placeholder="Enter your Age" class="form-control" />
+                
+                <br />
+                <input asp-for="Salary" placeholder="Enter your Salary" class="form-control" />
+                <br/>
+                <label>
+                    Married
+                </label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" asp-for="Married" asp-controller="Home" value="yes" />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" asp-for="Married" asp-controller="Home" value="No" />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
+                <textarea asp-for="Description" class="form-control" placeholder="Enter Description" rows="8">
+
+                </textarea>
+                <br/>
+                <button type="submit" value="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
