@@ -5,7 +5,7 @@ namespace CodeFirstASPCore.Models
 {
     public class Student
     {
-        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Column("StudentName",TypeName ="varchar(100)")]
         public string Name { get; set; }
