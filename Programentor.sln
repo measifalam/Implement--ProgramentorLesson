@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageTagHelper", "ImageTagH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelBindASPCore", "ModelBindASPCore\ModelBindASPCore.csproj", "{6F354F93-A59E-41E8-A682-3D59FA70B973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstASPCore", "CodeFirstASPCore\CodeFirstASPCore.csproj", "{B8799C3B-8A48-4600-AC51-CD216BD2921B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstASPCore", "CodeFirstASPCore\CodeFirstASPCore.csproj", "{B8799C3B-8A48-4600-AC51-CD216BD2921B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeesionASPCore", "SeesionASPCore\SeesionASPCore.csproj", "{822B644A-2121-4203-ABCF-D0D777ADC2BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{B8799C3B-8A48-4600-AC51-CD216BD2921B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8799C3B-8A48-4600-AC51-CD216BD2921B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8799C3B-8A48-4600-AC51-CD216BD2921B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822B644A-2121-4203-ABCF-D0D777ADC2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822B644A-2121-4203-ABCF-D0D777ADC2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822B644A-2121-4203-ABCF-D0D777ADC2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822B644A-2121-4203-ABCF-D0D777ADC2BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
